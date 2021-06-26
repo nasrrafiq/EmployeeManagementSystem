@@ -7,13 +7,14 @@
 package payrollmanagementsystem;
 import java.sql.*;
 
+
 /**
  *
  * @author nasr_
  */
 public class conn {
     
-  public Connection c;
+    public Connection c;
     public Statement s;
  
     public conn(){

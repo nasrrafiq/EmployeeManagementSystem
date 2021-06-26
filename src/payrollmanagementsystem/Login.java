@@ -5,6 +5,7 @@
  */
 package payrollmanagementsystem;
 import java.sql.*;
+import javax.swing.JOptionPane;
 /**
  *
  * @author nasr_
@@ -42,6 +43,11 @@ public class Login extends javax.swing.JFrame {
         jLabel2.setText("Password");
 
         b1.setText("Submit");
+        b1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                b1ActionPerformed(evt);
+            }
+        });
 
         b2.setText("Exit");
 
@@ -89,6 +95,31 @@ public class Login extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void b1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b1ActionPerformed
+        // TODO add your handling code here:
+        try 
+        {
+            conn c1= new conn();
+            String u = tf1.getText();
+            String v = pw1.getText();
+            
+            String q="select * from login where username='"+u+"' and password='"+v+"'";
+            
+            ResultSet rs=c1.s.executeQuery(q);
+             if(rs.next()){
+                new Payroll().setVisible(true);
+                setVisible(false);
+        }else {
+                 JOptionPane.showMessageDialog(null, "Invalid login");
+                 setVisible(false);
+             }
+             
+             
+    }//GEN-LAST:event_b1ActionPerformed
+            catch(Exception e){
+            e.printStackTrace();
+        }
+    }
     /**
      * @param args the command line arguments
      */
