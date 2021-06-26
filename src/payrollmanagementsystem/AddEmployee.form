@@ -68,33 +68,27 @@
               </Group>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="emaillbl" min="-2" pref="60" max="-2" attributes="0"/>
+                          <Component id="designationlbl1" min="-2" pref="71" max="-2" attributes="0"/>
                           <Component id="educationlbl" min="-2" pref="85" max="-2" attributes="0"/>
-                          <Component id="salarylbl" min="-2" pref="85" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="salarytxtadd" min="-2" pref="204" max="-2" attributes="0"/>
-                          <Component id="educationtxtadd" min="-2" pref="204" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="emaillbl" min="-2" pref="60" max="-2" attributes="0"/>
-                                  <Component id="designationlbl1" min="-2" pref="71" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
                           <Component id="expericenlbl2" alignment="0" min="-2" pref="71" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jComboBox4" min="-2" pref="204" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="jComboBox3" pref="210" max="32767" attributes="0"/>
-                              <Component id="Emailtxtadd" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jComboBox3" pref="210" max="32767" attributes="0"/>
+                                  <Component id="Emailtxtadd" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jComboBox4" min="-2" pref="204" max="-2" attributes="0"/>
+                                  <Component id="educationtxtadd" min="-2" pref="204" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
                       </Group>
                   </Group>
@@ -130,24 +124,22 @@
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="contacttxtadd" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
                   <Component id="phonelbl" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
-                  <Component id="salarylbl" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
-                  <Component id="salarytxtadd" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="educationlbl" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
                   <Component id="educationtxtadd" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="addresstxtadd" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
                   <Component id="addresslbl" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace pref="46" max="32767" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="countrylbl" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
-                  <Component id="jComboBox2" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
                   <Component id="expericenlbl2" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
                   <Component id="jComboBox4" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+              <EmptySpace pref="45" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="countrylbl" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="jComboBox2" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="clearbtn" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="Addbtn" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -217,14 +209,6 @@
         <Property name="text" type="java.lang.String" value="Education"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="salarylbl">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="12" style="0"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Salary"/>
-      </Properties>
-    </Component>
     <Component class="javax.swing.JLabel" name="addresslbl">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -271,13 +255,6 @@
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="contacttxtadd">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="14" style="0"/>
-        </Property>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JTextField" name="salarytxtadd">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="14" style="0"/>
