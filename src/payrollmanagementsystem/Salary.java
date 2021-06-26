@@ -46,7 +46,7 @@ public class Salary extends javax.swing.JFrame {
         titleaddemployee.setText("Salary");
 
         medicallbl.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        medicallbl.setText("Medical");
+        medicallbl.setText("Insentive");
 
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
@@ -54,7 +54,7 @@ public class Salary extends javax.swing.JFrame {
         IDlbl.setText("ID");
 
         petrollbl.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        petrollbl.setText("Petrol");
+        petrollbl.setText("Transport");
 
         clearbtn.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         clearbtn.setForeground(new java.awt.Color(102, 102, 255));
@@ -65,7 +65,7 @@ public class Salary extends javax.swing.JFrame {
         submitbtn.setText("SUBMIT");
 
         totllbl1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        totllbl1.setText("Total");
+        totllbl1.setText("Basic Salary");
 
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
