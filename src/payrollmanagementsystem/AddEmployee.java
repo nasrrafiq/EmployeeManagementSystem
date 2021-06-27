@@ -134,6 +134,11 @@ public class AddEmployee extends javax.swing.JFrame {
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Accounts Manager", "Business Development Manager", "Sales Engineer", "IT Manager", "HR", " " }));
 
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1 Year", "2 Year", "3 Year", "4 Year", "5 Year", "6 Year", "7 Year", "8 Year", "9 Year", "10 Year", " " }));
+        jComboBox4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox4ActionPerformed(evt);
+            }
+        });
 
         expericenlbl2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         expericenlbl2.setText("Experience");
@@ -259,6 +264,7 @@ public class AddEmployee extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_educationtxtaddActionPerformed
 
+    
     private void AddbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AddbtnActionPerformed
         // TODO add your handling code here:
         String n = nametxtadd.getText();
@@ -282,6 +288,10 @@ public class AddEmployee extends javax.swing.JFrame {
             ee.printStackTrace();
         }
     }//GEN-LAST:event_AddbtnActionPerformed
+
+    private void jComboBox4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox4ActionPerformed
 
     /**
      * @param args the command line arguments
